@@ -1,14 +1,6 @@
 // Select an element:
 const btn = document.querySelector('button');
 
-btn.addEventListener('click', () => {
-  alert('YOU CLICKED ME UGHHHH!!');
-});
-
-btn.addEventListener('click', () => {
-  console.log('Second time!!');
-});
-
 btn.addEventListener('mouseover', () => {
   console.log("MOUSED OVER ME!");
   const height = Math.floor(Math.random() * window.innerHeight);
